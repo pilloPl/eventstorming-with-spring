@@ -1,0 +1,21 @@
+{
+  "request" : {
+    "url" : "/withdrawals/123",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"withdrawals\":\"["first", "second", "third"]\"}"
+  }
+}
+
+{
+  "request" : {
+    "url" : "/withdrawals/456",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 204,
+    "body" : "{}"
+  }
+}
